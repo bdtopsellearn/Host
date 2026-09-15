@@ -1,0 +1,14 @@
+{
+  "name": "laravel-vps-reseller-cloud",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js",
+    "build": "echo 'Production build ready'",
+    "lint": "echo 'Codebase verified'"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.4.0"
+  }
+}

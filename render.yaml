@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: vortexcloud-vps-hosting
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: FIREBASE_PROJECT_ID
+        value: bot-host-website-9f118
+      - key: FIREBASE_STORAGE_BUCKET
+        value: bot-host-website-9f118.firebasestorage.app
+      - key: FIREBASE_SERVICE_ACCOUNT_KEY
+        sync: false
+      - key: FIREBASE_WEB_API_KEY
+        sync: false
+

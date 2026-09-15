@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+firebase-credentials.json
+dev-server.log
+
+firebase-credentials.json
+firebase-service.js
+.env
